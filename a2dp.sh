@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo apt-get update
-sudo apt-get install dh-autoreconf libasound2-dev libortp-dev pi-bluetooth -y
+sudo apt-get install dh-autoreconf libasound2-dev libortp-dev bluetooth -y
 sudo apt-get install libusb-dev libglib2.0-dev libudev-dev libical-dev libreadline-dev libsbc1 libsbc-dev -y
 git clone git://git.kernel.org/pub/scm/bluetooth/bluez.git
 cd bluez
